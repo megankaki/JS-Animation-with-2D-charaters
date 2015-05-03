@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/animate.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+    <!-- <body onload="startup()"> -->
+<!--     <body onclick="alert('Clicking body')"> -->
+    <!-- on click button clicking body. if put style on body tag, events wrok in opposite direction of css. work from outside -->
+        <aside class="controls">
+            <!--Add a click event that runs the change character function-->
+            <button>Change Character</button>
+            <!--Add a click event that runs the reset character position function-->
+            <button>Reset Position</button>
+        </aside>
+        <main>
+            <div id="sprite"></div>
+            <p>test</p>
+            <a href="http://google.com">Google</a>
+                <!-- <a href="http://google.com" onclick="alert('CLicking Link!''); return false">Google</a> -->
+                <!-- the return false will not let the button does not wover-->
+       <!-- <a href="http://google.com" onclick="alert('click link!'); ">Google</a> -->
+                <!-- event listener after the link in the form of onclick. if the retrun is made false 'return false' the link will not work but the alert will be made -->
+             <!-- <a href="http://google.com" onmouseover="alert('click link!'); ">Google</a> -->
+                <!-- allow it to hover and alert 'click link' using onmouseover -->
+        </main>
+    </body>
+</html>
